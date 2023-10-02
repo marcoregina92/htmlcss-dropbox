@@ -9,15 +9,47 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.container-box {
+    width: 60%;
+    margin: 0 auto;
+
+}
+
 .button-small{
     background-color: blue;
     color: white;
     padding: 5px;
 }
+/* --- UTILITIES --- */
 
 /* --- MARGIN --- */
 .m-10 {margin: 10px;} 
 .m-30 {margin: 30px;}
+
+
+
+/* --- PADDING --- */
+
+.pad-10 {padding: 10px;}
+.pad-bott-10 {padding-bottom: 10px;}
+.pad-bott-20 {padding-bottom: 20px;}
+.pad-bott-30 {padding-bottom: 30px;}
+.pad-bott-40 {padding-bottom: 40px;}
+.pad-bott-50 {padding-bottom: 50px;}
+.pad-bott-60 {padding-bottom: 60px;}
+.pad-bott-70 {padding-bottom: 70px;}
+
+
+
+/* --- FONT-SIZE --- */
+.ft-sz10 {font-size: 10px;}
+.ft-sz20 {font-size: 20px;}
+.ft-sz30 {font-size: 30px;}
+.ft-sz40 {font-size: 40px;}
+.ft-sz50 {font-size: 50px;}
+.ft-sz60 {font-size: 60px;}
+.ft-sz70 {font-size: 70px;}
+
 
 
 
@@ -43,21 +75,20 @@ main {
 
 .jumbotron {
     background: linear-gradient(180deg, rgba(180,208,231,1) 80%, rgba(255,255,255,1) 80%);
-    height: 900px;
+    height: 1000px;
 }
 
-.cont-box {
-    width: 60%;
+.cont-jumbo {
+    width: 80%;
     margin: 0 auto;
 
-
 }
 
-.cont-box > h1 {
+.cont-jumbo > h1 {
     font-size: 60px;
     font-weight: 800;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 150px;
 }
 
 .jumbo-bottom {
@@ -76,6 +107,26 @@ main {
     width: 70%;
     height: 500px;
     background-color: goldenrod;
-    
-    
 }
+
+
+
+/* --- SECTION 1 --- */
+
+.piano-business{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.tariffa-1, .tariffa-2, .tariffa-3 {
+    width: 32%;
+    height: 600px;
+    border: 1px dashed black;
+}
+
+.contact-enterprise {
+    width: 100%;
+    background-color: teal;
+    height: 300px;
+    margin-top: 84px;
