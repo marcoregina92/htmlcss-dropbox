@@ -29,6 +29,11 @@ body {
     text-decoration: none;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 
 /* --- UTILITIES --- */
 
@@ -51,9 +56,6 @@ body {
 .m-top-60 {margin-top: 60px;}
 .m-top-70 {margin-top: 70px;}
 
-
-
-
 /* --- PADDING --- */
 
 .pad-10 {padding: 10px;}
@@ -71,9 +73,6 @@ body {
 .pad-top-50 {padding-top: 50px;}
 .pad-top-60 {padding-top: 60px;}
 .pad-top-70 {padding-top: 70px;}
-
-
-
 
 
 /* --- FONT-SIZE --- */
@@ -128,6 +127,7 @@ main {
     font-weight: 800;
     text-align: center;
     padding-top: 150px;
+    text-indent: 43px;
 }
 
 .jumbo-bottom {
@@ -138,14 +138,11 @@ main {
 .jumbo-left {
     width: 30%;
     /* height: 500px; */
-
-
 }
 
 .jumbo-right {
     width: 70%;
     /* height: 500px; */
-
 }
 
 
@@ -159,10 +156,26 @@ main {
 }
 
 .tariffa-1, .tariffa-2, .tariffa-3 {
-    width: calc(100% / 3);
+    width: calc(100% / 3.3);
     height: 600px;
-    border: 1px dashed black;
+    border: 1px solid darkgray;
 }
+
+.titolo-tariffa {
+    text-align: center;
+    border-bottom: 1px solid darkgray;
+    padding: 10px;
+}
+
+.testo-tariffa {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.testo-tariffa > h3 {
+
+}
+
 
 .contact-enterprise {
     border: 1px dashed black;
