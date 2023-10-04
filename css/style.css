@@ -42,20 +42,50 @@ body {
     margin: 30px 0px;
 }
 
+.button-transparent {
+    border: 1px solid black;
+    padding: 10px;
+    width: 150px;
+}
+
+.button-white{
+    padding: 10px;
+    max-width: 218px;
+    background-color: white;
+    color: black;
+    
+
+}
+
 a {
     color: #0061ff;
 }
 
+.spazio-bianco{
+    width: 100%;
+    height: 250px;
+}
 
 /* --- UTILITIES --- */
 
+#type-none{list-style-type: none;}
 
 /* --- COLOR --- */
+.brown {color: #600e34;}
 .darkgrey{color: darkgray;}
+#white {color: white;}
+#filter-invert {filter: invert(1);}
 
-#white {
-    color: white;
-}
+/* --- DISPLAY --- */
+.dp-flex {display: flex;}
+.jtf-cont{justify-content: center;}
+
+/* --- WIDTH --- */
+.wid-10 {width: 10%;}
+.wid-50 {width: 50%;}
+.wid-60 {width: 60%;}
+.wid-100 {width: 100%;}
+
 
 /* --- MARGIN --- */
 .m-10 {margin: 10px;} 
@@ -75,6 +105,9 @@ a {
 .m-top-50 {margin-top: 50px;}
 .m-top-60 {margin-top: 60px;}
 .m-top-70 {margin-top: 70px;}
+.m-top-100 {margin-top: 100px;}
+
+.m-right-10 {margin-right: 10px;}
 
 /* --- PADDING --- */
 .pad-5 {padding: 5px;}
@@ -178,12 +211,10 @@ main {
 
 .jumbo-left {
     width: 30%;
-    /* height: 500px; */
 }
 
 .jumbo-right {
     width: 70%;
-    /* height: 500px; */
 }
 
 
@@ -257,6 +288,174 @@ margin: 0 auto;
 
 .lato-dx {
     width: 40%;
+}
+
+.cont-tool {
+    margin: 0 auto;
+}
+
+.tool-top {
+ display: flex;
+ justify-content: space-between;
+
+}
+
+.tool-bott {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tool-1, .tool-2, .tool-3 {
+    width: calc(100% / 3.2);
     height: 500px;
-    background-color: goldenrod;
+}
+
+
+.partners {
+    width: 100%;
+    height: 585px;
+    display: flex;
+}
+
+.partner-left, .partner-central, .partner-right {
+    width: calc(100% / 3);
+}
+
+.partner-left{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.partner-central{
+    background-color: #f5f5f5;
+    
+}
+
+.partner-right{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.designit{
+    width: 50%;
+    height: 50%;
+    background-color: #a2d39b;
+    /* filter: invert(1);  */
+}
+
+
+.asu{
+    width: 50%;
+    height: 50%;
+    background-color: #61082b;
+}
+
+.florida{
+    width: 50%;
+    height: 50%;
+    background-color: #0093ce;
+    align-items: center;
+}
+
+.img-florida{
+    width: 200px;
+    height: 40px;
+}
+
+.topps{
+    width: 50%;
+    height: 50%;
+    background-color: #ff1c1c;
+}
+
+.world-bicycle{
+    width: 50%;
+    height: 50%;
+    background-color: #d5001f;
+}
+
+.hearst{
+    width: 50%;
+    height: 50%;
+    background-color: #b4d0e7;
+}
+
+.lonelyplanet{
+    width: 50%;
+    height: 50%;
+    background-color: #0d2481;
+}
+
+.clear-channel{
+    width: 50%;
+    height: 50%;
+    background-color: #ffd830;
+}
+
+.container-partner {
+    height: 575px;
+    overflow: auto;
+    padding: 50px;
+}
+
+
+.prova-gratuita {
+    height: 350px;
+    background-color: #b4d0e7;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box-answer {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+
+footer {
+    height: 500px;
+    background-color: black;
+    color: white;
+}
+
+
+
+.container-footer {
+    width: 80%;
+    margin: 0 auto 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item-footer {
+    line-height: 50px;
+    margin-top: 50px;
+}
+
+.item-footer > ul {
+    list-style-type: none;
+    font-size: 13px;
+}
+
+.item-footer > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.hr-final {
+    width: 66%;
+    margin: 0 auto;
+
+}
+
+.hr-final > p {
+    margin-top: 40px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: darkgray;
 }
